@@ -1,0 +1,27 @@
+[submodule "architsmat38/golang-aws-sqs"]
+	path = vendor/github.com/architsmat38/golang-aws-sqs
+	url = https://github.com/architsmat38/golang-aws-sqs
+
+[submodule "aws/aws-sdk-go"]
+	path = vendor/github.com/aws/aws-sdk-go
+	url = https://github.com/aws/aws-sdk-go
+
+[submodule "jmespath/go-jmespath"]
+	path = vendor/github.com/jmespath/go-jmespath
+	url = https://github.com/jmespath/go-jmespath
+
+[submodule "openfaas-incubator/connector-sdk"]
+	path = vendor/github.com/openfaas-incubator/connector-sdk
+	url = https://github.com/openfaas-incubator/connector-sdk
+
+[submodule "pkg/errors"]
+	path = vendor/github.com/pkg/errors
+	url = https://github.com/pkg/errors
+
+[submodule "faas-provider"]
+	path = vendor/github.com/openfaas/faas-provider
+	url = https://github.com/openfaas/faas-provider
+
+[submodule "faas"]
+	path = vendor/github.com/openfaas/faas
+	url = https://github.com/openfaas/faas
