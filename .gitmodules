@@ -1,27 +1,21 @@
-[submodule "architsmat38/golang-aws-sqs"]
+[submodule "vendor/github.com/architsmat38/golang-aws-sqs"]
 	path = vendor/github.com/architsmat38/golang-aws-sqs
-	url = https://github.com/architsmat38/golang-aws-sqs
-
-[submodule "aws/aws-sdk-go"]
+	url = https://github.com/architsmat38/golang-aws-sqs.git
+[submodule "vendor/github.com/aws/aws-sdk-go"]
 	path = vendor/github.com/aws/aws-sdk-go
-	url = https://github.com/aws/aws-sdk-go
-
-[submodule "jmespath/go-jmespath"]
+	url = https://github.com/aws/aws-sdk-go.git
+[submodule "vendor/github.com/jmespath/go-jmespath"]
 	path = vendor/github.com/jmespath/go-jmespath
-	url = https://github.com/jmespath/go-jmespath
-
-[submodule "openfaas-incubator/connector-sdk"]
+	url = https://github.com/jmespath/go-jmespath.git
+[submodule "vendor/github.com/openfaas-incubator/connector-sdk"]
 	path = vendor/github.com/openfaas-incubator/connector-sdk
-	url = https://github.com/openfaas-incubator/connector-sdk
-
-[submodule "pkg/errors"]
+	url = https://github.com/openfaas-incubator/connector-sdk.git
+[submodule "vendor/github.com/pkg/errors"]
 	path = vendor/github.com/pkg/errors
-	url = https://github.com/pkg/errors
-
-[submodule "faas-provider"]
+	url = https://github.com/pkg/errors.git
+[submodule "vendor/github.com/openfaas/faas-provider"]
 	path = vendor/github.com/openfaas/faas-provider
-	url = https://github.com/openfaas/faas-provider
-
-[submodule "faas"]
+	url = https://github.com/openfaas/faas-provider.git
+[submodule "vendor/github.com/openfaas/faas"]
 	path = vendor/github.com/openfaas/faas
-	url = https://github.com/openfaas/faas
+	url = https://github.com/openfaas/faas.git
