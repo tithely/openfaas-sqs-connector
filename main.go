@@ -24,7 +24,10 @@ var (
 )
 
 func InitializePollerSQS() {
-	log.Printf("queueName: %s", queueName)
+    log.Printf("accessKeyId: %s", accessKeyId)
+    log.Printf("secretKey: %s", secretKey)
+    log.Printf("region: %s", region)
+    log.Printf("queueName: %s", queueName)
 
 	printResponse, _ := strconv.ParseBool(os.Getenv("PRINT_RESPONSE"))
 	printResponseBody, _ := strconv.ParseBool(os.Getenv("PRINT_RESPONSE_BODY"))
@@ -57,11 +60,6 @@ func InitializePollerSQS() {
 }
 
 func main() {
-
-    log.Printf("accessKeyId: %s", accessKeyId)
-    log.Printf("secretKey: %s", secretKey)
-    log.Printf("region: %s", region)
-    log.Printf("queueName: %s", queueName)
 
 	SqsService.Initialize(
 		SqsService.New(queueName, region, accessKeyId, secretKey, ""),
