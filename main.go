@@ -24,6 +24,8 @@ var (
 )
 
 func InitializePollerSQS() {
+	log.Printf("queueName: %s", queueName)
+
 	printResponse, _ := strconv.ParseBool(os.Getenv("PRINT_RESPONSE"))
 	printResponseBody, _ := strconv.ParseBool(os.Getenv("PRINT_RESPONSE_BODY"))
 
