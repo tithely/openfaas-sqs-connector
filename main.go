@@ -58,6 +58,11 @@ func InitializePollerSQS() {
 
 func main() {
 
+    log.Printf("accessKeyId: %s", accessKeyId)
+    log.Printf("secretKey: %s", secretKey)
+    log.Printf("region: %s", region)
+    log.Printf("queueName: %s", queueName)
+
 	SqsService.Initialize(
 		SqsService.New(queueName, region, accessKeyId, secretKey, ""),
 		SqsService.SetWaitSeconds(20),
